@@ -4,18 +4,22 @@
         <meta charset="UTF=8">
         <title>Generic Landing Page</title>
         <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
     </head>
     <body>
 
         <!-- Header with logo and 3 links -->
         <div class="header"> 
-            <div>
+            <div class="header-logo">
                 Header Logo
             </div>
-            <ul>
-                <li>Header Link One</li>
-                <li>Header Link Two</li>
-                <li>Header Link Three</li>
+            <ul class="header-link-list">
+                <li><a href="#" class="header-link">Header Link One</a></li>
+                <li><a href="#" class="header-link">Header Link One</a></li>
+                <li><a href="#" class="header-link">Header Link One</a></li>
             </ul>
         </div>
 
@@ -24,16 +28,16 @@
             <!-- Text Container for Sign up -->
             <div class="upper-container">
 
-                <div class="upper-signup-text">
-                    <p>This website is awesome</p>
-                    <p>This website has some subtext that goes here under the main title.
+                <div class="upper-left">
+                    <p class="upper-left-title">This website is awesome</p>
+                    <p class="upper-left-text">This website has some subtext that goes here under the main title.
                          It's a smaller font and the color is lower contrast
                     </p>
                     <button class="signup-button">Sign Up</button>
 
-                </div class="upper-signup-image">
+                </div class="upper-right">
                     <!-- <img src="#" alt="Placeholder Image"> -->
-                    <div>Placeholder Image</div>
+                    <div class="upper-right-image">Placeholder Image</div>
                 </div>
 
             </div>
@@ -48,26 +52,26 @@
                 <!-- 1 -->
                 <div class="card">
                     <!-- <img src="#" alt="Info Card"> -->
-                    <div>Info Card</div>
-                    <p>This is some subtext under an illustration or image</p>
+                    <div class="card-image">Info Card</div>
+                    <p class="card-text">This is some subtext under an illustration or image</p>
                 </div>
                 <!-- 2 -->
                 <div class="card">
                     <!-- <img src="#" alt="Info Card"> -->
-                    <div>Info Card</div>
-                    <p>This is some subtext under an illustration or image</p>
+                    <div class="card-image">Info Card</div>
+                    <p class="card-text">This is some subtext under an illustration or image</p>
                 </div>
                 <!-- 3 -->
                 <div class="card">
                     <!-- <img src="#" alt="Info Card"> -->
-                    <div>Info Card</div>
-                    <p>This is some subtext under an illustration or image</p>
+                    <div class="card-image">Info Card</div>
+                    <p class="card-text">This is some subtext under an illustration or image</p>
                 </div>
                 <!-- 4 -->
                 <div class="card">
                     <!-- <img src="#" alt="Info Card"> -->
-                    <div>Info Card</div>
-                    <p>This is some subtext under an illustration or image</p>
+                    <div class="card-image">Info Card</div>
+                    <p class="card-text">This is some subtext under an illustration or image</p>
                 </div>
 
             </div>
@@ -85,7 +89,7 @@
                     Who knows? All I know is that is looks nice
                 </p>
 
-                <p class="quote-quotation">Thor, god of Thunder</p>
+                <p class="quote-credits">-Thor, God of Thunder</p>
 
             </div>
         </div>
